@@ -50,7 +50,6 @@ const App = () => {
   };
 
   const classes = useStyles();
-  const preventDefault = (event) => event.preventDefault();
   return (
     <div className="root">
       <AppBar position="static">
