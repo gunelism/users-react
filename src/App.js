@@ -68,12 +68,12 @@ const App = () => {
           </Typography>
           {currentUser ? (
             <Typography className={classes.root}>
-              <Button href="#text-buttons" color="primary">
+              <Button color="primary">
                 <Link to={"/profile"} className={classes.white}>
                   {currentUser.username}
                 </Link>
               </Button>
-              <Button href="#text-buttons">
+              <Button>
                 <a href="/login" onClick={logOut} className={classes.white}>
                   LogOut
                 </a>
