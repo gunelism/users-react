@@ -1,4 +1,5 @@
 ## Available Scripts
+Before all don't forget to npm install :)
 
 In the project directory, you can run:
 
